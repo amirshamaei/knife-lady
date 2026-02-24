@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Knife Lady | بانوی چاقو</title>
+  <meta name="description" content="Premium handcrafted Zanjan knives – kitchen, hunting, folding & collector blades. بانوی چاقو فروش زنجانی" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600&family=Noto+Naskh+Arabic:wght@400;500;700&family=Vazirmatn:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══════════════════ NAVBAR ══════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo-link">
+        <span class="logo-icon">⚔️</span>
+        <div class="logo-text">
+          <span class="logo-en" id="nav-logo-en">Knife Lady</span>
+          <span class="logo-fa" id="nav-logo-fa">بانوی چاقو</span>
+        </div>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero"     data-i18n="nav_home">Home</a></li>
+        <li><a href="#products" data-i18n="nav_products">Products</a></li>
+        <li><a href="#about"    data-i18n="nav_about">About</a></li>
+        <li><a href="#shipping" data-i18n="nav_shipping">Shipping</a></li>
+        <li><a href="#contact"  data-i18n="nav_contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <div class="lang-switcher" id="lang-switcher">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="fa">FA</button>
+          <button class="lang-btn" data-lang="tr">TR</button>
+          <button class="lang-btn" data-lang="ar">AR</button>
+        </div>
+        <button class="burger" id="burger" aria-label="menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ══════════════════ HERO ══════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="hero.png" alt="Zanjan handcrafted knives" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-badge" data-i18n="hero_badge">🏆 Authentic Zanjan Craft</p>
+      <h1 class="hero-title" id="hero-title">
+        <span class="hero-title-en" data-i18n="hero_title_main">Knife Lady</span>
+      </h1>
+      <p class="hero-subtitle" data-i18n="hero_subtitle">
+        Premium handcrafted knives from the steel capital of Iran
+      </p>
+      <div class="hero-ctas">
+        <a href="#products" class="btn btn-primary" data-i18n="hero_cta_shop">Explore Collection</a>
+        <a href="https://www.instagram.com/banooyechaghoo/" target="_blank" rel="noopener" class="btn btn-outline" data-i18n="hero_cta_insta">📸 Instagram</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ══════════════════ BANNER STRIP ══════════════════ -->
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <span data-i18n="ticker_1">✈️ Free shipping across Iran</span>
+      <span>⚡</span>
+      <span data-i18n="ticker_2">🔪 100% authentic Zanjan blades</span>
+      <span>⚡</span>
+      <span data-i18n="ticker_3">📩 Order via Instagram Direct</span>
+      <span>⚡</span>
+      <span data-i18n="ticker_1">✈️ Free shipping across Iran</span>
+      <span>⚡</span>
+      <span data-i18n="ticker_2">🔪 100% authentic Zanjan blades</span>
+      <span>⚡</span>
+      <span data-i18n="ticker_3">📩 Order via Instagram Direct</span>
+      <span>⚡</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════ PRODUCTS ══════════════════ -->
+  <section class="products" id="products">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow" data-i18n="products_eyebrow">Our Collection</p>
+        <h2 class="section-title" data-i18n="products_title">Fine Blades for Every Purpose</h2>
+        <p class="section-desc" data-i18n="products_desc">Each knife is hand-forged by master craftsmen in Zanjan, Iran — a city with a 3,000-year tradition of bladesmithing.</p>
+      </div>
+
+      <div class="products-grid">
+
+        <div class="product-card" data-index="0">
+          <div class="product-icon">🍳</div>
+          <h3 class="product-name" data-i18n="cat_kitchen_name">Kitchen Knives</h3>
+          <p class="product-desc" data-i18n="cat_kitchen_desc">Professional chef knives, cleavers, and bread knives crafted for precision and longevity in any kitchen.</p>
+          <a href="https://www.instagram.com/banooyechaghoo/" target="_blank" class="product-cta" data-i18n="product_order">Order Now →</a>
+        </div>
+
+        <div class="product-card featured" data-index="1">
+          <div class="product-badge" data-i18n="badge_popular">Most Popular</div>
+          <div class="product-icon">🏹</div>
+          <h3 class="product-name" data-i18n="cat_hunting_name">Hunting Knives</h3>
+          <p class="product-desc" data-i18n="cat_hunting_desc">Robust, razor-sharp hunting blades with hand-carved handles in bone, wood, and horn — built for the wild.</p>
+          <a href="https://www.instagram.com/banooyechaghoo/" target="_blank" class="product-cta" data-i18n="product_order">Order Now →</a>
+        </div>
+
+        <div class="product-card" data-index="2">
+          <div class="product-icon">🔄</div>
+          <h3 class="product-name" data-i18n="cat_folding_name">Folding Knives</h3>
+          <p class="product-desc" data-i18n="cat_folding_desc">Elegant everyday-carry pocket knives with smooth locking mechanisms and premium blade steel.</p>
+          <a href="https://www.instagram.com/banooyechaghoo/" target="_blank" class="product-cta" data-i18n="product_order">Order Now →</a>
+        </div>
+
+        <div class="product-card" data-index="3">
+          <div class="product-icon">💎</div>
+          <h3 class="product-name" data-i18n="cat_collector_name">Collector's Knives</h3>
+          <p class="product-desc" data-i18n="cat_collector_desc">Limited-edition artisan pieces with engraved blades, inlaid handles and certificate of authenticity.</p>
+          <a href="https://www.instagram.com/banooyechaghoo/" target="_blank" class="product-cta" data-i18n="product_order">Order Now →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ ABOUT ══════════════════ -->
+  <section class="about" id="about">
+    <div class="container about-container">
+      <div class="about-text">
+        <p class="section-eyebrow" data-i18n="about_eyebrow">Our Story</p>
+        <h2 class="section-title" data-i18n="about_title">A Lady Who Knows Her Blades</h2>
+        <p data-i18n="about_p1">Welcome to <strong>Knife Lady</strong> — the shop run by a passionate Zanjani woman dedicated to bringing the finest handcrafted knives to every home and workshop across Iran and beyond.</p>
+        <p data-i18n="about_p2">Zanjan has been Iran's knife-making capital for thousands of years. Our collection is sourced directly from master artisans who carry generations of knowledge in every strike of the hammer.</p>
+        <p data-i18n="about_p3">Whether you're a professional chef, an outdoor adventurer, or a collector — we have the perfect blade for you. All orders are processed through Instagram Direct with personal consultation.</p>
+        <a href="https://www.instagram.com/banooyechaghoo/" target="_blank" rel="noopener" class="btn btn-primary" data-i18n="about_cta">Follow @banooyechaghoo</a>
+      </div>
+      <div class="about-stats">
+        <div class="stat-card">
+          <span class="stat-num">3000<sup>+</sup></span>
+          <span class="stat-label" data-i18n="stat_years">Years of Zanjan craft</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">4</span>
+          <span class="stat-label" data-i18n="stat_cats">Product categories</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">31</span>
+          <span class="stat-label" data-i18n="stat_provinces">Iranian provinces served</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">100%</span>
+          <span class="stat-label" data-i18n="stat_authentic">Authentic & guaranteed</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ SHIPPING ══════════════════ -->
+  <section class="shipping" id="shipping">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow" data-i18n="shipping_eyebrow">Delivery</p>
+        <h2 class="section-title" data-i18n="shipping_title">We Ship Everywhere in Iran ✈️</h2>
+      </div>
+      <div class="shipping-grid">
+        <div class="shipping-card">
+          <div class="shipping-icon">📦</div>
+          <h3 data-i18n="ship_pack_title">Secure Packaging</h3>
+          <p data-i18n="ship_pack_desc">Every knife is individually wrapped and padded to arrive in perfect condition.</p>
+        </div>
+        <div class="shipping-card">
+          <div class="shipping-icon">✈️</div>
+          <h3 data-i18n="ship_nation_title">Nationwide Delivery</h3>
+          <p data-i18n="ship_nation_desc">We ship to all 31 provinces of Iran via trusted courier services.</p>
+        </div>
+        <div class="shipping-card">
+          <div class="shipping-icon">📩</div>
+          <h3 data-i18n="ship_order_title">Easy Ordering</h3>
+          <p data-i18n="ship_order_desc">Place your order and get personalized advice through Instagram Direct message.</p>
+        </div>
+        <div class="shipping-card">
+          <div class="shipping-icon">🛡️</div>
+          <h3 data-i18n="ship_guarantee_title">Quality Guarantee</h3>
+          <p data-i18n="ship_guarantee_desc">Every blade is quality-checked before shipping. Your satisfaction is our priority.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ CONTACT ══════════════════ -->
+  <section class="contact" id="contact">
+    <div class="container contact-container">
+      <div class="section-header">
+        <p class="section-eyebrow" data-i18n="contact_eyebrow">Get in Touch</p>
+        <h2 class="section-title" data-i18n="contact_title">Ready to Order?</h2>
+        <p class="section-desc" data-i18n="contact_desc">Reach us through Instagram for orders, custom requests, and knife consultations.</p>
+      </div>
+      <a href="https://www.instagram.com/banooyechaghoo/" target="_blank" rel="noopener" class="insta-btn">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        @banooyechaghoo
+      </a>
+      <p class="contact-hint" data-i18n="contact_hint">💬 DM us on Instagram for orders, pricing & custom knives</p>
+    </div>
+  </section>
+
+  <!-- ══════════════════ FOOTER ══════════════════ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon">⚔️</span>
+        <div>
+          <div class="footer-name" data-i18n="footer_name">Knife Lady | بانوی چاقو</div>
+          <div class="footer-city" data-i18n="footer_city">Zanjan, Iran</div>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="#products" data-i18n="nav_products">Products</a>
+        <a href="#about" data-i18n="nav_about">About</a>
+        <a href="#shipping" data-i18n="nav_shipping">Shipping</a>
+        <a href="https://www.instagram.com/banooyechaghoo/" target="_blank">Instagram</a>
+      </div>
+      <div class="footer-copy" data-i18n="footer_copy">© 2026 Knife Lady. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
